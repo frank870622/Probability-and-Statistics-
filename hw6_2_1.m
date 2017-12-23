@@ -14,6 +14,7 @@ f = 1/2/pi/ax/ay/(sqrt(1 - p*p))*exp((-1)*z./2/(1-p*p));
 
 subplot(2,2,1);
 mesh(X,Y,f);
+colormap jet;
 colorbar;
 title('distrubution1');
 xlabel('X');
@@ -34,6 +35,7 @@ f2 = 1/2/pi/ax/ay/(sqrt(1 - p*p))*exp((-1)*z./2/(1-p*p));
 
 subplot(2,2,2);
 mesh(X,Y,f2);
+colormap jet;
 colorbar;
 title('distrubution2');
 xlabel('X');
